@@ -1,0 +1,32 @@
+------------------------------------------------------------
+User: heather  Tue Dec  3 09:39:27 PST 2002
+commonRootData
+
+Log Message:
+new import of commonRootData
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0
+		
+N commonRootData/.cvsignore
+N commonRootData/cmt/.cvsignore
+N commonRootData/cmt/requirements
+N commonRootData/commonRootData/.cvsignore
+N commonRootData/commonRootData/commonRootDataLinkDef.h
+N commonRootData/commonRootData/Exception.h
+N commonRootData/commonRootData/Relation.h
+N commonRootData/commonRootData/RelTable.h
+N commonRootData/commonRootData/RootDataUtil.h
+N commonRootData/doc/Doxyfile
+N commonRootData/doc/release.notes
+N commonRootData/src/.cvsignore
+N commonRootData/src/mainpage.h
+N commonRootData/src/Relation.cxx
+N commonRootData/src/RelTable.cxx
+N commonRootData/src/RootDataUtil.cxx
+
+No conflicts created by this import
+
+    *
