@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Tue Aug 10 16:28:09 PDT 2004
+commonRootData/cmt
+
+Modified Files:
+      Tag: beforeheader
+	requirements 
+Log Message:
+use new RootcintPolicy in this branch
+    *
+------------------------------------------------------------
 User: burnett  Tue Aug 10 10:04:04 PDT 2004
 commonRootData/doc
 
