@@ -1,6 +1,6 @@
 
-#ifndef VOLUMEIDENTIFIER_H
-#define VOLUMEIDENTIFIER_H
+#ifndef commonRootData_VOLUMEIDENTIFIER_H
+#define commonRootData_VOLUMEIDENTIFIER_H
 
 #include "TObject.h"
 
@@ -14,7 +14,7 @@
 *
 * @author Heather Kelly
 *  
-* $Header: /nfs/slac/g/glast/ground/cvs/mcRootData/mcRootData/VolumeIdentifier.h,v 1.6 2002/09/24 18:26:29 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/VolumeIdentifier.h,v 1.1 2004/06/29 06:25:11 heather Exp $
 */
 class VolumeIdentifier: public TObject {
     
