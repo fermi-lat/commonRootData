@@ -1,6 +1,6 @@
 package commonRootData
-version v1r0p1
-# $Id: requirements,v 1.16 2004/07/26 18:02:37 heather Exp $
+version v1r0p2
+# $Id: requirements,v 1.16.2.1 2004/08/10 23:28:09 heather Exp $
 
 
 use RootcintPolicy v4r* GlastPolicy
@@ -15,5 +15,5 @@ apply_pattern root_package headers="\
  ../commonRootData/idents/AcdId.h\
  ../commonRootData/idents/CalXtalId.h\
  ../commonRootData/idents/TowerId.h"\
- extra_source="idents/*.cxx" WIN32 "-s=../commonRootData idents/*.h -s=../src idents/*.cxx"
+ extra_source="idents/*.cxx" 
 
