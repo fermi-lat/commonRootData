@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jan 15 15:39:42 PST 2004
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+reorder headers - seems to affect rootcint
+    *
+------------------------------------------------------------
 User: heather  Thu Jan 15 15:39:23 PST 2004
 commonRootData/doc
 
