@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Jul  1 17:35:51 PDT 2004
+commonRootData/commonRootData/idents
+
+Modified Files:
+	AcdId.h CalXtalId.h TowerId.h VolumeIdentifier.h 
+Log Message:
+CalXtalId.h:  Add support for face and range fields 
+all:  adjust ifdef protection names
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Jul  1 17:34:51 PDT 2004
 commonRootData/commonRootData
 
