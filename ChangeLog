@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Jun 28 23:27:33 PDT 2004
+commonRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+moving idents classes to this package
+    *
+------------------------------------------------------------
 User: heather  Mon Jun 28 23:26:31 PDT 2004
 commonRootData/src/idents
 
