@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Jan 13 13:16:15 PST 2003
+commonRootData/commonRootData
+
+Modified Files:
+	commonRootDataLinkDef.h 
+Log Message:
+remove BadPointerException for now
+    *
+------------------------------------------------------------
 User: burnett  Sat Jan 11 14:17:14 PST 2003
 commonRootData/cmt
 
