@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Jun 28 23:26:31 PDT 2004
+commonRootData/src/idents
+
+Added Files:
+	CalXtalId.cxx AcdId.cxx TowerId.cxx VolumeIdentifier.cxx 
+Log Message:
+moving idents classes to this package
+    *
+------------------------------------------------------------
 User: heather  Mon Jun 28 23:26:05 PDT 2004
 commonRootData/src/idents
 
