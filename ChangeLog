@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: chamont  Mon Aug  9 10:52:08 PDT 2004
+commonRootData/src
+
+Added Files:
+	FileHeader.cxx 
+Log Message:
+add the new FileHeader class
+    *
+------------------------------------------------------------
+User: chamont  Mon Aug  9 10:52:08 PDT 2004
 commonRootData/commonRootData
 
 Modified Files:
