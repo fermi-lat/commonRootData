@@ -1,9 +1,9 @@
 package commonRootData
 version v1r0p1
-# $Id: requirements,v 1.17 2004/08/09 17:52:07 chamont Exp $
+# $Id: requirements,v 1.18 2004/08/10 17:04:04 burnett Exp $
 
 
-use RootcintPolicy v4r* GlastPolicy
+use RootPolicy v4r* 
 
 # see RootPolicy for discussion of this pattern
 apply_pattern root_package headers="\
