@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Dec  3 15:31:31 PST 2004
+commonRootData/cmt
+
+Modified Files:
+	.cvsignore requirements 
+Log Message:
+.cvsignore: Ignore Makefile
+requirements: Add TkrId.h to list of include files
+
+    *
+------------------------------------------------------------
 User: heather  Tue Sep 21 21:37:16 PDT 2004
 commonRootData/commonRootData
 
