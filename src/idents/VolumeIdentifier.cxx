@@ -5,7 +5,7 @@
 ClassImp(VolumeIdentifier)
 
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/mcRootData/src/VolumeIdentifier.cxx,v 1.5 2002/05/13 15:05:43 heather Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/idents/VolumeIdentifier.cxx,v 1.1 2004/06/29 06:26:31 heather Exp $
 //
 // Description:
 //      The class VolumeIdentifier encapsulates volume identifiers defined in
@@ -77,7 +77,7 @@ std::string VolumeIdentifier::name(const char* delimiter) const
     return tmp.substr(0,tmp.size()-1);
 }
 
-void VolumeIdentifier::Clear(Option_t *option) {
+void VolumeIdentifier::Clear(Option_t* /* *option */) {
     m_bits0to31 = 0;
     m_bits32to63 = 0;
     m_size = 0;
