@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Wed Dec 15 15:33:03 PST 2004
+commonRootData/commonRootData/idents
+
+Modified Files:
+	TkrId.h 
+Log Message:
+If I really understood why this was necessary then we'd be a lot better off...
+    *
+------------------------------------------------------------
 User: jrb  Fri Dec  3 15:33:23 PST 2004
 commonRootData/src/idents
 
