@@ -1,12 +1,12 @@
-#ifndef digiRootData_GLAST_TOWERID_H
-#define digiRootData_GLAST_TOWERID_H 1
+#ifndef commonRootData_GLAST_TOWERID_H
+#define commonRootData_GLAST_TOWERID_H 1
 
 #include "TObject.h"
 
 /** @class TowerId
  * @brief ROOT version of the Tower identifier following Ritz specs.
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/digiRootData/digiRootData/TowerId.h,v 1.3 2002/09/24 19:27:57 heather Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/TowerId.h,v 1.1 2004/06/29 06:25:11 heather Exp $
 */
 class TowerId: public TObject
 {
