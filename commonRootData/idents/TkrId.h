@@ -15,7 +15,7 @@ namespace commonRootData {
 *  Includes access methods for  all tracker-relevant fields.  
 * @author  J. Bogart
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/idents/idents/TkrId.h,v 1.6 2004/10/01 19:39:15 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/TkrId.h,v 1.1 2004/12/03 23:33:04 jrb Exp $
 */
 
   class TkrId : public TObject {
@@ -55,7 +55,7 @@ namespace commonRootData {
     TkrId() : TObject(), m_packedId(0) {};
 
     /// Copy constructor
-    TkrId(TkrId& other) : TObject(other), m_packedId(other.m_packedId) {};
+    TkrId(const TkrId& other) : TObject(other), m_packedId(other.m_packedId) {};
 
     ~TkrId() {};
 
