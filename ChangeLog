@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Wed Jun 16 21:51:19 PDT 2004
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+use RootPolicy pattern
+    *
+------------------------------------------------------------
 User: heather  Mon Jun 14 22:33:24 PDT 2004
 commonRootData/cmt
 
