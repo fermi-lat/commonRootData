@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Jul 26 11:02:37 PDT 2004
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+fix version of CalXtalId - no need to increment, no new data members
+    *
+------------------------------------------------------------
 User: jrb  Thu Jul  1 17:36:34 PDT 2004
 commonRootData/src/idents
 
