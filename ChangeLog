@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Jul  1 17:34:51 PDT 2004
+commonRootData/commonRootData
+
+Modified Files:
+	Exception.h RootDataUtil.h 
+Log Message:
+Fix a couple Linux compile warnings
+
+    *
+------------------------------------------------------------
 User: heather  Tue Jun 29 09:43:34 PDT 2004
 commonRootData/commonRootData
 
