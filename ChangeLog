@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Jul  1 17:36:34 PDT 2004
+commonRootData/src/idents
+
+Modified Files:
+	CalXtalId.cxx VolumeIdentifier.cxx 
+Log Message:
+CalXtalId.cxx:  Add support for face and range fields
+VolumeIdentifier.cxx: Fix Linux compile warning
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Jul  1 17:35:51 PDT 2004
 commonRootData/commonRootData/idents
 
