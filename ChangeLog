@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Jun 28 23:25:26 PDT 2004
+commonRootData/commonRootData
+
+Modified Files:
+	LinkDef.h 
+Log Message:
+moving idents classes to this package
+    *
+------------------------------------------------------------
 User: heather  Mon Jun 28 23:25:12 PDT 2004
 commonRootData/commonRootData/idents
 
