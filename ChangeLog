@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Feb  5 13:44:13 PST 2003
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+apply vsnet_rootcint pattern and remove unnecessary ROOT use
+    *
+------------------------------------------------------------
 User: heather  Wed Feb  5 13:40:41 PST 2003
 commonRootData/doc
 
