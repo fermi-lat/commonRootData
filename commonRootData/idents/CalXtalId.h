@@ -30,7 +30,7 @@
 * where the top bit in the Range and Face fields is used to keep track
 * of the validity of the remainder of the field.
 * @author  Heather Kelly
-* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/CalXtalId.h,v 1.1 2004/06/29 06:25:11 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/CalXtalId.h,v 1.2 2004/07/02 00:35:51 jrb Exp $
 */
 class CalXtalId : public TObject {
 
@@ -128,7 +128,7 @@ private:
 };
     
 
-    ClassDef(CalXtalId,2) // Cal Xtal Identifier
+    ClassDef(CalXtalId,1) // Cal Xtal Identifier
 };
 
 
