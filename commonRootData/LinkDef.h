@@ -1,6 +1,6 @@
 /** @file LinkDef.h
     @brief for rootcint
- $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/LinkDef.h,v 1.4 2004/08/09 17:52:08 chamont Exp $
+ $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/LinkDef.h,v 1.5 2004/09/22 04:37:16 heather Exp $
 
 */
 
@@ -10,6 +10,7 @@
 #pragma link off all classes;
 #pragma link off all functions;
 
+#pragma link C++ namespace commonRootData;
 #pragma link C++ class RelTable+;
 #pragma link C++ class Relation+;
 #pragma link C++ class BaseException;
@@ -17,6 +18,7 @@
 #pragma link C++ class AcdId+;
 #pragma link C++ class CalXtalId+;
 #pragma link C++ class TowerId+;
+#pragma link C++ class commonRootData::TkrId+;
 #pragma link C++ class VolumeIdentifier+;
 //#pragma link C++ class BadPointerException;
 
