@@ -1,8 +1,10 @@
 /** @file LinkDef.h
     @brief for rootcint
- $Header$
+ $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/LinkDef.h,v 1.1 2004/06/17 04:51:19 burnett Exp $
 
-*/#ifdef __CINT__
+*/
+
+#ifdef __CINT__
 
 #pragma link off all globals;
 #pragma link off all classes;
