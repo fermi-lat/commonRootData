@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Dec  3 15:32:10 PST 2004
+commonRootData/commonRootData
+
+Modified Files:
+	LinkDef.h 
+Log Message:
+Add namespace commonRootData, class commonRootData::TkrId
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Dec  3 15:31:31 PST 2004
 commonRootData/cmt
 
