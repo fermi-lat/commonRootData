@@ -1,6 +1,6 @@
 /** @file LinkDef.h
     @brief for rootcint
- $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/LinkDef.h,v 1.1 2004/06/17 04:51:19 burnett Exp $
+ $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/LinkDef.h,v 1.2 2004/06/17 06:47:16 heather Exp $
 
 */
 
@@ -14,6 +14,10 @@
 #pragma link C++ class Relation+;
 #pragma link C++ class BaseException;
 #pragma link C++ class IndexOutOfBoundsException;
+#pragma link C++ class AcdId+;
+#pragma link C++ class CalXtalId+;
+#pragma link C++ class TowerId+;
+#pragma link C++ class VolumeIdentifier+;
 //#pragma link C++ class BadPointerException;
 
 #endif
