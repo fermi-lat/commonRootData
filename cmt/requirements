@@ -1,6 +1,6 @@
 package commonRootData
-version v1r0
-# $Id: requirements,v 1.14 2004/06/21 17:30:50 burnett Exp $
+version v1r0p0
+# $Id: requirements,v 1.15 2004/06/29 06:25:56 heather Exp $
 
 
 use RootPolicy v4r*
