@@ -15,7 +15,7 @@ namespace commonRootData {
 *  Includes access methods for  all tracker-relevant fields.  
 * @author  J. Bogart
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/TkrId.h,v 1.1 2004/12/03 23:33:04 jrb Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/TkrId.h,v 1.2 2004/12/15 23:33:03 usher Exp $
 */
 
   class TkrId : public TObject {
@@ -80,7 +80,7 @@ namespace commonRootData {
     enum {
       MASKTowerY = 0x3,
       MASKTowerX = 0x3,
-      MASKTray   = 0x1f,
+      MASKTray   = 0x3f,
       MASKMeas   = 0x1,
       MASKBotTop = 0x1,
       MASKLadder = 0x3,
@@ -91,10 +91,10 @@ namespace commonRootData {
       SHIFTTowerY = 0,
       SHIFTTowerX = 2,
       SHIFTTray   = 4,
-      SHIFTMeas   = 9,
-      SHIFTBotTop = 10,
-      SHIFTLadder = 11,
-      SHIFTWafer  = 13
+      SHIFTMeas   = 10,
+      SHIFTBotTop = 11,
+      SHIFTLadder = 12,
+      SHIFTWafer  = 14
     };
 
     /*
