@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Aug 10 10:04:04 PDT 2004
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+moved RootPolicy to GlastPolicy/RootcintPolicy -- tagging p1
+    *
+------------------------------------------------------------
 User: chamont  Tue Aug 10 07:26:03 PDT 2004
 commonRootData/commonRootData
 
