@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: chamont  Mon Aug  9 10:52:08 PDT 2004
+commonRootData/commonRootData
+
+Modified Files:
+	LinkDef.h 
+Added Files:
+	FileHeader.h RootObj.h 
+Log Message:
+add the new FileHeader class
+    *
+------------------------------------------------------------
+User: chamont  Mon Aug  9 10:52:08 PDT 2004
 commonRootData/cmt
 
 Modified Files:
