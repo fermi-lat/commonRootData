@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sat Apr  9 11:34:14 PDT 2005
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add methods to retrieve MapIter in FileHeader
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r2, operation: add
 Package: commonRootData
