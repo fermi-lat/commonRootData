@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sat Apr  9 11:37:35 PDT 2005
+commonRootData/src
+
+Modified Files:
+	FileHeader.cxx 
+Log Message:
+add methods to retrieve MapIter in FileHeader
+    *
+------------------------------------------------------------
 User: heather  Sat Apr  9 11:37:19 PDT 2005
 commonRootData/commonRootData
 
