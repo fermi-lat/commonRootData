@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sat Apr  9 11:37:19 PDT 2005
+commonRootData/commonRootData
+
+Modified Files:
+	FileHeader.h 
+Log Message:
+add methods to retrieve MapIter in FileHeader
+    *
+------------------------------------------------------------
 User: heather  Sat Apr  9 11:34:19 PDT 2005
 commonRootData/doc
 
