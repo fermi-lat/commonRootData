@@ -2,10 +2,10 @@
 #include "commonRootData/idents/VolumeIdentifier.h"
 #include <iostream>
 
-ClassImp(VolumeIdentifier)
+ClassImp(commonRootData::VolumeIdentifier)
 
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/idents/VolumeIdentifier.cxx,v 1.1 2004/06/29 06:26:31 heather Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/idents/VolumeIdentifier.cxx,v 1.2 2004/07/02 00:36:34 jrb Exp $
 //
 // Description:
 //      The class VolumeIdentifier encapsulates volume identifiers defined in
@@ -25,6 +25,8 @@ ClassImp(VolumeIdentifier)
 #else
 #include <sstream>
 #endif
+
+namespace commonRootData {
 
 
 VolumeIdentifier::VolumeIdentifier() :  
@@ -130,3 +132,5 @@ void VolumeIdentifier::append( unsigned int id)
     
     m_size++;
 }
+
+} // end namespace

@@ -6,6 +6,8 @@
 
 #include <string>
 
+namespace commonRootData {
+
 /** @class VolumeIdentifier
 * @brief This is the ROOT version of the idents::VolumeIdentifier
 *
@@ -14,7 +16,7 @@
 *
 * @author Heather Kelly
 *  
-* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/VolumeIdentifier.h,v 1.1 2004/06/29 06:25:11 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/VolumeIdentifier.h,v 1.2 2004/07/02 00:35:51 jrb Exp $
 */
 class VolumeIdentifier: public TObject {
     
@@ -67,5 +69,7 @@ private:
     
     ClassDef(VolumeIdentifier,1) // Volume Identifier Class
 };
+
+} // end namespace
 
 #endif

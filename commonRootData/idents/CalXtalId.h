@@ -3,6 +3,8 @@
 
 #include "TObject.h"
 
+namespace commonRootData {
+
 /* @class CalXtalId        
 * @brief ID class for CAL logs   
 *                             
@@ -30,7 +32,7 @@
 * where the top bit in the Range and Face fields is used to keep track
 * of the validity of the remainder of the field.
 * @author  Heather Kelly
-* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/CalXtalId.h,v 1.2 2004/07/02 00:35:51 jrb Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/CalXtalId.h,v 1.3 2004/07/26 18:02:48 heather Exp $
 */
 class CalXtalId : public TObject {
 
@@ -131,5 +133,6 @@ private:
     ClassDef(CalXtalId,1) // Cal Xtal Identifier
 };
 
+}
 
 #endif    // GlastEvent_LOGID_H
