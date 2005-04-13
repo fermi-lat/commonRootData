@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Apr 13 12:49:50 PDT 2005
+commonRootData/src
+
+Modified Files:
+	RelTable.cxx Relation.cxx 
+Log Message:
+fix up some warnings
+    *
+------------------------------------------------------------
 User: heather  Wed Apr 13 12:01:41 PDT 2005
 commonRootData/src/idents
 
