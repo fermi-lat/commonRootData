@@ -3,10 +3,12 @@
 
 #include "TObject.h"
 
+namespace commonRootData {
+
 /** @class TowerId
  * @brief ROOT version of the Tower identifier following Ritz specs.
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/TowerId.h,v 1.1 2004/06/29 06:25:11 heather Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/TowerId.h,v 1.2 2004/07/02 00:35:51 jrb Exp $
 */
 class TowerId: public TObject
 {
@@ -49,6 +51,8 @@ private:
     
     ClassDef(TowerId,1)
 };
+
+} //end namespace
 
 #endif // digiRootData_GLAST_TOWERID_H
 
