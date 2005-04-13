@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Apr 13 12:01:41 PDT 2005
+commonRootData/src/idents
+
+Modified Files:
+	AcdId.cxx CalXtalId.cxx TowerId.cxx VolumeIdentifier.cxx 
+Log Message:
+use commonRootData namespace throught idents
+    *
+------------------------------------------------------------
 User: heather  Wed Apr 13 12:01:34 PDT 2005
 commonRootData/commonRootData
 
