@@ -1,5 +1,5 @@
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/RelTable.cxx,v 1.1.1.1 2002/12/02 21:41:30 heather Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/RelTable.cxx,v 1.1.1.1 2002/12/03 17:39:27 heather Exp $
 //
 // Description:
 //                                                
@@ -16,11 +16,11 @@ RelTable::RelTable() {
     Clear();
 }
 
-RelTable::RelTable(const RelTable& copy) {
+RelTable::RelTable(const RelTable& copy) : TObject(copy) {
     Clear();
     TIter it(copy.m_table);
     Relation *rel = 0;
-    while (rel = (Relation*)it.Next()) {
+    while ((rel = (Relation*)it.Next())) {
         addRelation(rel);
     }
 }
@@ -38,7 +38,7 @@ void RelTable::addRelation(Relation *rel) {
 const Relation* RelTable::getRelByFirst(const TObject *key) const {
     TIter it(m_table);
     Relation *rel = 0;
-    while (rel = (Relation*)it.Next()) {
+    while ((rel = (Relation*)it.Next())) {
         if (rel->getKey() == key) return rel;
     }
     
@@ -55,7 +55,7 @@ void RelTable::Print(Option_t *option) const {
     TObject::Print(option);
     TIter it(m_table);
     Relation *rel = 0;
-    while (rel = (Relation*)it.Next()) {
+    while ((rel = (Relation*)it.Next())) {
         rel->Print();
     }
 }

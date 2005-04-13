@@ -1,5 +1,5 @@
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/Relation.cxx,v 1.1.1.1 2002/12/02 21:41:30 heather Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/Relation.cxx,v 1.1.1.1 2002/12/03 17:39:27 heather Exp $
 //
 // Description:
 //                                                
@@ -17,7 +17,7 @@ Relation::Relation() {
 
 Relation::Relation(TRef key, const TRefArray& valueCol) {
     m_key = key;
-    UInt_t irel;
+    Int_t irel;
     for (irel = 0; irel < valueCol.GetEntries(); irel++) {
         m_valueCol.Add(valueCol.At(irel));
     }
@@ -30,7 +30,7 @@ Relation::~Relation() {
 
 void Relation::initialize(TRef key, const TRefArray& valueCol) {
     m_key = key;
-    UInt_t irel;
+    Int_t irel;
     for (irel = 0; irel < valueCol.GetEntries(); irel++) {
         m_valueCol.Add(valueCol.At(irel));
 }}
@@ -47,7 +47,7 @@ void Relation::Print(Option_t *option) const {
     m_key.GetObject()->Print();
     cout << endl;
     
-    UInt_t irel;
+    Int_t irel;
     for (irel = 0; irel < m_valueCol.GetEntries(); irel++) {
         (m_valueCol.At(irel))->Print();
         cout << endl;
