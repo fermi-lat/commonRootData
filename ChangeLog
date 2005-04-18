@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Apr 17 22:51:52 PDT 2005
+commonRootData/commonRootData/idents
+
+Modified Files:
+	AcdId.h CalXtalId.h TowerId.h VolumeIdentifier.h 
+Log Message:
+back out namespace
+    *
+------------------------------------------------------------
 User: heather  Sun Apr 17 22:46:22 PDT 2005
 commonRootData/cmt
 
