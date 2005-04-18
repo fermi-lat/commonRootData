@@ -2,10 +2,10 @@
 #include "commonRootData/idents/VolumeIdentifier.h"
 #include <iostream>
 
-ClassImp(commonRootData::VolumeIdentifier)
+ClassImp(VolumeIdentifier)
 
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/idents/VolumeIdentifier.cxx,v 1.3 2005/04/13 19:01:41 heather Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/idents/VolumeIdentifier.cxx,v 1.2 2004/07/02 00:36:34 jrb Exp $
 //
 // Description:
 //      The class VolumeIdentifier encapsulates volume identifiers defined in
@@ -21,8 +21,6 @@ ClassImp(commonRootData::VolumeIdentifier)
 
 
 #include <sstream>
-
-namespace commonRootData {
 
 
 VolumeIdentifier::VolumeIdentifier() :  
@@ -55,7 +53,6 @@ std::string VolumeIdentifier::name(const char* delimiter) const
 {
     // Purpose and Method:  Return the equivalent string of the volume 
     //    identifier, that is the single ids separated by a '/' character
-
     std::stringstream s;
     
     unsigned int i;
@@ -122,5 +119,3 @@ void VolumeIdentifier::append( unsigned int id)
     
     m_size++;
 }
-
-} // end namespace
