@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Apr 17 22:46:22 PDT 2005
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+back out commonRootData namespace
+    *
+------------------------------------------------------------
 User: heather  Sun Apr 17 22:46:09 PDT 2005
 commonRootData/doc
 
