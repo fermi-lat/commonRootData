@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Apr 17 22:52:00 PDT 2005
+commonRootData/commonRootData
+
+Modified Files:
+	LinkDef.h 
+Log Message:
+back out namespace
+    *
+------------------------------------------------------------
 User: heather  Sun Apr 17 22:51:52 PDT 2005
 commonRootData/commonRootData/idents
 
