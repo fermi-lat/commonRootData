@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Apr 17 22:46:09 PDT 2005
+commonRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+back out commonRootData namespace
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r0, operation: add
 Package: commonRootData
