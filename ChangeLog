@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun Apr 17 22:52:21 PDT 2005
+commonRootData/src/idents
+
+Modified Files:
+	AcdId.cxx CalXtalId.cxx TowerId.cxx VolumeIdentifier.cxx 
+Log Message:
+back out namespace
+    *
+------------------------------------------------------------
 User: heather  Sun Apr 17 22:52:00 PDT 2005
 commonRootData/commonRootData
 
