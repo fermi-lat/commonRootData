@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: chamont  Thu Jul  7 08:35:15 PDT 2005
+commonRootData/src
+
+Modified Files:
+	RootDataUtil.cxx 
+Log Message:
+Compare() is reserved by ROOT, replace with CompareInRange()
+    *
+------------------------------------------------------------
+User: chamont  Thu Jul  7 08:35:15 PDT 2005
 commonRootData/commonRootData
 
 Modified Files:
