@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri Sep  9 13:22:46 PDT 2005
+commonRootData/commonRootData/idents
+
+Modified Files:
+	AcdId.h 
+Log Message:
+replace layer with n/a
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r3, operation: add
 Package: commonRootData
