@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: chamont  Fri Dec  2 08:04:47 PST 2005
+commonRootData/commonRootData/idents
+
+Modified Files:
+	AcdId.h TkrId.h 
+Log Message:
+Unit tests for AcdId, and collections in general
+    *
+------------------------------------------------------------
+User: chamont  Fri Dec  2 08:04:47 PST 2005
 commonRootData/commonRootData
 
 Modified Files:
