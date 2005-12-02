@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chamont  Fri Dec  2 08:04:47 PST 2005
+commonRootData/commonRootData
+
+Modified Files:
+	RootDataUtil.h 
+Log Message:
+Unit tests for AcdId, and collections in general
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r4, operation: add
 Package: commonRootData
