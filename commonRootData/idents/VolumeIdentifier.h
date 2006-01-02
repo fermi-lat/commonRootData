@@ -3,7 +3,6 @@
 #define commonRootData_VOLUMEIDENTIFIER_H
 
 #include "TObject.h"
-
 #include <string>
 
 /** @class VolumeIdentifier
@@ -14,7 +13,7 @@
 *
 * @author Heather Kelly
 *  
-* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/VolumeIdentifier.h,v 1.2 2004/07/02 00:35:51 jrb Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/VolumeIdentifier.h,v 1.4 2005/04/18 05:51:52 heather Exp $
 */
 class VolumeIdentifier: public TObject {
     
@@ -28,6 +27,8 @@ public:
 
     void Clear(Option_t *option ="");
     
+    Bool_t CompareInRange( const VolumeIdentifier &, const std::string & ="unknown VolumeIdentifier" ) const ; // for tests
+
     void Print(Option_t *option="") const;
 
     /** 

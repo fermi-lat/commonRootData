@@ -2,11 +2,12 @@
 #define commonRootData_GLAST_TOWERID_H 1
 
 #include "TObject.h"
+#include <string>
 
 /** @class TowerId
  * @brief ROOT version of the Tower identifier following Ritz specs.
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/TowerId.h,v 1.2 2004/07/02 00:35:51 jrb Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/idents/TowerId.h,v 1.4 2005/04/18 05:51:52 heather Exp $
 */
 class TowerId: public TObject
 {
@@ -29,6 +30,8 @@ unless we agree to number the towers 0, 1, 4, 5.
     ~TowerId() { };
 
     void Clear(Option_t *option ="");
+
+    Bool_t CompareInRange( const TowerId &, const std::string & ="unknown TowerId" ) const ; // for tests
 
     void Print(Option_t *option="") const;
 
