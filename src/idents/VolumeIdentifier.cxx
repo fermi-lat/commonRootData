@@ -1,11 +1,12 @@
 
 #include "commonRootData/idents/VolumeIdentifier.h"
+#include <commonRootData/RootDataUtil.h>
 #include <iostream>
 
 ClassImp(VolumeIdentifier)
 
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/idents/VolumeIdentifier.cxx,v 1.2 2004/07/02 00:36:34 jrb Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/idents/VolumeIdentifier.cxx,v 1.5 2005/04/18 05:52:21 heather Exp $
 //
 // Description:
 //      The class VolumeIdentifier encapsulates volume identifiers defined in
@@ -119,3 +120,22 @@ void VolumeIdentifier::append( unsigned int id)
     
     m_size++;
 }
+
+
+#define COMPARE_IN_RANGE(att) rootdatautil::CompareInRange(get ## att(),ref.get ## att(),#att)
+
+Bool_t VolumeIdentifier::CompareInRange( const VolumeIdentifier & ref, const std::string & name ) const {
+
+    bool result = true ;
+
+    result = COMPARE_IN_RANGE(Bits0to31) && result ;
+    result = COMPARE_IN_RANGE(Bits32to63) && result ;
+    result = rootdatautil::CompareInRange(size(),ref.size(),"size") && result ;
+
+    if (!result) {
+        std::cout<<"Comparison ERROR for "<<name<<std::endl ;
+    }
+    return result ;
+
+}
+
