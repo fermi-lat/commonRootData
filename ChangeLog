@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: chamont  Mon Jan  2 06:10:02 PST 2006
+commonRootData/src
+
+Modified Files:
+	RootDataUtil.cxx 
+Log Message:
+Unit tests utilities for reconRootData
+    *
+------------------------------------------------------------
+User: chamont  Mon Jan  2 06:10:02 PST 2006
 commonRootData/doc
 
 Modified Files:
