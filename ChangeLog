@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Mar  2 09:35:31 PST 2006
+commonRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+use Riostream consistently
+    *
+------------------------------------------------------------
+User: heather  Thu Mar  2 09:35:31 PST 2006
 commonRootData/cmt
 
 Modified Files:
