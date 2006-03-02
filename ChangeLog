@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Mar  2 09:35:31 PST 2006
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+use Riostream consistently
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r6, operation: add
 Package: commonRootData
