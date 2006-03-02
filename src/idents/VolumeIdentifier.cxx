@@ -1,12 +1,12 @@
 
 #include "commonRootData/idents/VolumeIdentifier.h"
 #include <commonRootData/RootDataUtil.h>
-#include <iostream>
+#include "Riostream.h"
 
 ClassImp(VolumeIdentifier)
 
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/idents/VolumeIdentifier.cxx,v 1.5 2005/04/18 05:52:21 heather Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/idents/VolumeIdentifier.cxx,v 1.6 2006/01/02 14:10:02 chamont Exp $
 //
 // Description:
 //      The class VolumeIdentifier encapsulates volume identifiers defined in
