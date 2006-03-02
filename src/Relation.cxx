@@ -1,12 +1,12 @@
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/Relation.cxx,v 1.1.1.1 2002/12/03 17:39:27 heather Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/Relation.cxx,v 1.2 2005/04/13 19:49:50 heather Exp $
 //
 // Description:
 //                                                
 // Author:  Heather Kelly                       
 
 #include "commonRootData/Relation.h"
-#include <iostream>
+#include "Riostream.h"
 #include "TCollection.h"  // Declares TIter
 
 ClassImp(Relation)
