@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Apr  4 16:12:45 PDT 2006
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Added AcdGapId
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r6p1, operation: add
 Package: commonRootData
