@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Tue Apr  4 16:12:46 PDT 2006
+commonRootData/commonRootData
+
+Modified Files:
+	LinkDef.h 
+Log Message:
+Added AcdGapId
+    *
+------------------------------------------------------------
 User: echarles  Tue Apr  4 16:12:45 PDT 2006
 commonRootData/cmt
 
