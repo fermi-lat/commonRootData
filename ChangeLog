@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: echarles  Sun Apr 30 18:32:41 PDT 2006
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Added AcdMap to convert back to electronics space
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r7, operation: add
 Package: commonRootData
