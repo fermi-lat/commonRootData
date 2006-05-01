@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: echarles  Sun Apr 30 18:32:42 PDT 2006
+commonRootData/src/idents
+
+Modified Files:
+	AcdId.cxx 
+Log Message:
+Added AcdMap to convert back to electronics space
+    *
+------------------------------------------------------------
+User: echarles  Sun Apr 30 18:32:42 PDT 2006
 commonRootData/doc
 
 Modified Files:
