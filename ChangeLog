@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Jul  6 13:34:26 PDT 2006
+commonRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+moved TaggerHit and QdcHit here
+    *
+------------------------------------------------------------
+User: heather  Thu Jul  6 13:34:26 PDT 2006
 commonRootData/commonRootData/adf
 
 Added Files:
