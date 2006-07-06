@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Jul  6 13:34:26 PDT 2006
+commonRootData/commonRootData
+
+Modified Files:
+	LinkDef.h 
+Log Message:
+moved TaggerHit and QdcHit here
+    *
+------------------------------------------------------------
+User: heather  Thu Jul  6 13:34:26 PDT 2006
 commonRootData/cmt
 
 Modified Files:
