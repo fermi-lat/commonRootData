@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu Jul  6 13:34:26 PDT 2006
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+moved TaggerHit and QdcHit here
+    *
+------------------------------------------------------------
 User: heather  Thu Jul  6 13:33:16 PDT 2006
 commonRootData/src/adf
 
