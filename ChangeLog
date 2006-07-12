@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jul 12 15:35:23 PDT 2006
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+update for new QdcHit
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r9, operation: add
 Package: commonRootData
