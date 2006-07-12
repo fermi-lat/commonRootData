@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Wed Jul 12 15:35:23 PDT 2006
+commonRootData/commonRootData/adf
+
+Modified Files:
+	QdcHit.h 
+Log Message:
+update for new QdcHit
+    *
+------------------------------------------------------------
+User: heather  Wed Jul 12 15:35:23 PDT 2006
 commonRootData/cmt
 
 Modified Files:
