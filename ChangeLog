@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jul 19 14:47:22 PDT 2006
+commonRootData/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+add in ScalerHit
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r10, operation: add
 Package: commonRootData
