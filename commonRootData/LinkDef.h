@@ -1,6 +1,6 @@
 /** @file LinkDef.h
     @brief for rootcint
- $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/LinkDef.h,v 1.9 2006/04/04 23:12:46 echarles Exp $
+ $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/LinkDef.h,v 1.10 2006/07/06 20:34:26 heather Exp $
 
 */
 
@@ -24,6 +24,7 @@
 //#pragma link C++ class BadPointerException;
 
 #pragma link C++ class commonRootData::TaggerHit+;
+#pragma link C++ class commonRootData::ScalerHit+;
 #pragma link C++ class commonRootData::QdcHit+;
 
 #pragma link C++ class RootObj<Int_t>+;
