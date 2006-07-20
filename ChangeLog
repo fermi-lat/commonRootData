@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Jul 20 12:05:26 PDT 2006
+commonRootData/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+store pulseheights as double32
+    *
+------------------------------------------------------------
+User: heather  Thu Jul 20 12:05:26 PDT 2006
 commonRootData/cmt
 
 Modified Files:
