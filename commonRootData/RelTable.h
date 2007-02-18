@@ -10,7 +10,7 @@
 * @brief GLAST Relational Table class.
 *
 *  
-*  $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/RelTable.h,v 1.1.1.1 2002/12/03 17:39:27 heather Exp $
+*  $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/RelTable.h,v 1.2 2007/02/15 19:32:14 usher Exp $
 */
 
 class RelTable : public TObject  
@@ -41,16 +41,15 @@ public:
     
     
 private:
+    /// The list of relations that we really wwant
+    TObjArray *m_table;
     /// unique event id for this run (for indexing)
     UInt_t m_eventId;
     
     /// Run number (for indexing)
     UInt_t m_runId;
-
-    /// The list of relations that we really wwant
-    TObjArray *m_table;
     
-    ClassDef(RelTable,1) // Relational Table Class
+    ClassDef(RelTable,2) // Relational Table Class
 };
 
 #endif
