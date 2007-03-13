@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kocian  Tue Mar 13 16:06:38 PDT 2007
+commonRootData/commonRootData
+
+Modified Files:
+	AcdMap.h 
+Log Message:
+added conversion function from tile number (index) to tile name
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r14, operation: add
 Package: commonRootData
