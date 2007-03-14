@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kocian  Wed Mar 14 14:06:54 PDT 2007
+commonRootData/src/idents
+
+Modified Files:
+	AcdId.cxx 
+Log Message:
+added static member function for conversion between tile number and name
+    *
+------------------------------------------------------------
 User: kocian  Wed Mar 14 14:06:53 PDT 2007
 commonRootData/commonRootData/idents
 
