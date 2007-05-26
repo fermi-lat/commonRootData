@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: kocian  Sat May 26 13:35:40 PDT 2007
+commonRootData/commonRootData
+
+Modified Files:
+	AcdMap.h 
+Log Message:
+replaced return value for maps with reference for efficiency
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r15, operation: add
 Package: commonRootData
