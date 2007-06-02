@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Fri Jun  1 19:10:47 PDT 2007
+commonRootData/commonRootData
+
+Modified Files:
+      Tag: GlastReleasev9r13
+	RootDataUtil.h 
+Log Message:
+CompareInRange for vector UInt
+    *
+------------------------------------------------------------
+User: heather  Fri Jun  1 19:10:47 PDT 2007
 commonRootData/cmt
 
 Modified Files:
