@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Jun  1 19:10:47 PDT 2007
+commonRootData/cmt
+
+Modified Files:
+      Tag: GlastReleasev9r13
+	requirements 
+Log Message:
+CompareInRange for vector UInt
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r15p1, operation: add
 Package: commonRootData
