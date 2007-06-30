@@ -1,5 +1,5 @@
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/RelTable.cxx,v 1.3 2006/03/02 17:35:31 heather Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/RelTable.cxx,v 1.4 2007/02/15 19:32:14 usher Exp $
 //
 // Description:
 //                                                
@@ -32,6 +32,9 @@ RelTable::~RelTable() {
 
 void RelTable::initialize(UInt_t nEvent, UInt_t nRun)
 {
+    Clear();
+    m_table = new TObjArray();
+
     m_eventId = nEvent;
     m_runId   = nRun;
 }
