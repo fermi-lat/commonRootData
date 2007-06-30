@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Sat Jun 30 09:23:59 PDT 2007
+commonRootData/src
+
+Modified Files:
+	RelTable.cxx 
+Log Message:
+Create TObjArray whenever RelTable is initialized
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r15p2, operation: add
 Package: commonRootData
