@@ -1,5 +1,5 @@
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/RelTable.cxx,v 1.4 2007/02/15 19:32:14 usher Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/RelTable.cxx,v 1.5 2007/06/30 16:23:59 usher Exp $
 //
 // Description:
 //                                                
@@ -55,7 +55,11 @@ const Relation* RelTable::getRelByFirst(const TObject *key) const {
 }
 
 void RelTable::Clear(Option_t *option) {
-    if (m_table) m_table->Clear();
+    if (m_table) 
+    {
+        m_table->Clear();
+        delete m_table;
+    }
     m_table = 0;
 }
 
