@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Thu Sep  6 15:18:42 PDT 2007
+commonRootData/src
+
+Modified Files:
+	RelTable.cxx 
+Log Message:
+Need to clean up the TObjArray when clearing
+    *
+------------------------------------------------------------
 User: chamont  Tue Aug 21 08:11:23 PDT 2007
 commonRootData/commonRootData
 
