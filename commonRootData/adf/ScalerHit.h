@@ -3,11 +3,12 @@
 #define ROOT_ScalerHit_H
 
 #include "TObject.h"
+#include <string>
 
 /** @class ScalerHit
  * @brief The digitization ancillary data for beamtest 2006  
  * 
- * $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/adf/ScalerHit.h,v 1.1 2006/07/06 20:34:26 heather Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/adf/ScalerHit.h,v 1.1 2006/07/19 21:47:22 heather Exp $
 */
 
 namespace commonRootData {
