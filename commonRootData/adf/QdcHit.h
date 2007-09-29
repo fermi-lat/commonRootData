@@ -3,11 +3,12 @@
 #define ROOT_QdcHit_H
 
 #include "TObject.h"
+#include <string>
 
 /** @class QdcHit
  * @brief The digitization ancillary data for beamtest 2006  
  * 
- * $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/adf/QdcHit.h,v 1.3 2006/07/19 22:17:51 heather Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/adf/QdcHit.h,v 1.4 2006/07/26 22:00:39 heather Exp $
 */
 
 namespace commonRootData {
