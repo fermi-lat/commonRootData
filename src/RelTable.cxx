@@ -1,5 +1,5 @@
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/RelTable.cxx,v 1.5 2007/06/30 16:23:59 usher Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/RelTable.cxx,v 1.6 2007/09/06 22:18:42 usher Exp $
 //
 // Description:
 //                                                
@@ -45,7 +45,7 @@ void RelTable::addRelation(Relation *rel) {
 }
 
 const Relation* RelTable::getRelByFirst(const TObject *key) const {
-    TIter it(m_table);
+    TObjArrayIter it(m_table);
     Relation *rel = 0;
     while ((rel = (Relation*)it.Next())) {
         if (rel->getKey() == key) return rel;
