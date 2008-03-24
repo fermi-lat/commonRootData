@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Mon Mar 24 13:09:25 PDT 2008
+commonRootData/src
+
+Modified Files:
+	RelTable.cxx 
+Log Message:
+update TIter to TObjectIter
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r15p5, operation: add
 Package: commonRootData
