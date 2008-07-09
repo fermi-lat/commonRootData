@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Wed Jul  9 14:13:45 PDT 2008
+GlastRelease-scons/commonRootData
+
+Added Files:
+	SConscript commonRootDataLib.py 
+Log Message:
+Added SConscript files to packages
+    *
+------------------------------------------------------------
 TAG
 Tag name: commonRootData-02-15-05, operation: add
 Package: commonRootData
