@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header$
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/commonRootData/SConscript,v 1.1 2008/07/09 21:13:45 glastrm Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
 # Version: commonRootData-02-15-05
 Import('baseEnv')
@@ -20,3 +20,6 @@ commonRootDataRootcint = libEnv.Rootcint('commonRootData/commonRootData_rootcint
 commonRootData = libEnv.SharedLibrary('commonRootData', listFiles(['src/*.cxx', 'src/idents/*.cxx', 'src/adf/*.cxx']) + ['commonRootData/commonRootData_rootcint.cxx'])
 
 baseEnv.Tool('registerObjects', package = 'commonRootData', libraries = [commonRootData], includes = listFiles(['commonRootData/*'], recursive = 1))
+
+
+
