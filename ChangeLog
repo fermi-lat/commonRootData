@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:40:23 PST 2008
+GlastRelease-scons/commonRootData
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for commonRootData v2r15p5 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 User: glastrm  Wed Jul  9 14:13:45 PDT 2008
 GlastRelease-scons/commonRootData
 
