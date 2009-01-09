@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-15-49-00, operation: add
+Package: commonRootData
+User: glastrm  Fri Jan  9 13:27:04 2009
+Files:
+  commonRootData/SConscript  1.2
+  commonRootData/commonRootDataLib.py  1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-15-50-10, operation: del
 Package: commonRootData
 User: glastrm  Fri Jan  9 08:31:34 2009
