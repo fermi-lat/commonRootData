@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/commonRootData/SConscript,v 1.3 2009/01/23 00:07:31 ecephas Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/commonRootData/SConscript,v 1.4 2009/07/30 21:06:13 jrb Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
 # Version: commonRootData-02-15-05
 Import('baseEnv')
@@ -8,26 +8,39 @@ Import('packages')
 libEnv = baseEnv.Clone()
 
 libEnv.Tool('commonRootDataLib', depsOnly = 1)
-commonRootDataRootcint = libEnv.Rootcint('commonRootData/commonRootData_rootcint', ['commonRootData/RelTable.h', 'commonRootData/Relation.h',
-                                                                                    'commonRootData/RootDataUtil.h', 'commonRootData/RootObj.h',
-                                                                                    'commonRootData/FileHeader.h', 'commonRootData/Exception.h',
-                                                                                    'commonRootData/idents/VolumeIdentifier.h', 'commonRootData/idents/AcdId.h',
-                                                                                    'commonRootData/idents/AcdGapId.h', 'commonRootData/idents/CalXtalId.h',
-                                                                                    'commonRootData/idents/TkrId.h', 'commonRootData/idents/TowerId.h',
-                                                                                    'commonRootData/adf/TaggerHit.h', 'commonRootData/adf/ScalerHit.h',
-                                                                                    'commonRootData/adf/QdcHit.h', 'commonRootData/LinkDef.h'],
+commonRootDataRootcint =libEnv.Rootcint('commonRootData/commonRootData_rootcint',
+                                        ['commonRootData/RelTable.h',
+                                         'commonRootData/Relation.h',
+                                         'commonRootData/RootDataUtil.h',
+                                         'commonRootData/RootObj.h',
+                                         'commonRootData/FileHeader.h',
+                                         'commonRootData/Exception.h',
+                                         'commonRootData/idents/VolumeIdentifier.h',
+                                         'commonRootData/idents/AcdId.h',
+                                         'commonRootData/idents/AcdGapId.h',
+                                         'commonRootData/idents/CalXtalId.h',
+                                         'commonRootData/idents/TkrId.h',
+                                         'commonRootData/idents/TowerId.h',
+                                         'commonRootData/adf/TaggerHit.h',
+                                         'commonRootData/adf/ScalerHit.h',
+                                         'commonRootData/adf/QdcHit.h',
+                                         'commonRootData/LinkDef.h'],
                                          includes = ['.'])
 
 
-commonRootData = libEnv.SharedLibrary('commonRootData', listFiles(['src/*.cxx', 'src/idents/*.cxx', 'src/adf/*.cxx']) + ['commonRootData/commonRootData_rootcint.cxx'])
+commonRootDataLib = libEnv.SharedLibrary('commonRootData',
+                                         listFiles(['src/*.cxx',
+                                                    'src/idents/*.cxx',
+                                                    'src/adf/*.cxx']) + ['commonRootData/commonRootData_rootcint.cxx'])
 
 libEnv['rootcint_node'] = commonRootDataRootcint
-#baseEnv.Tool('registerObjects', package = 'commonRootData', libraries = [commonRootData], includes = listFiles(['commonRootData/*'], recursive = 1))
-
-rootcintLibCxts = []
-rootcintLibCxts.append([commonRootData, libEnv])
 
 libEnv.Tool('registerTargets', package = 'commonRootData',
-            rootcintLibraryCxts = rootcintLibCxts,
+            rootcintSharedCxts = [[commonRootDataLib, libEnv]],
             includes = listFiles(['commonRootData/*.h'], recursive = True)
             )
+
+
+
+
+
