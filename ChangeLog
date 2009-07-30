@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Jul 30 14:06:13 PDT 2009
+GlastRelease-scons/commonRootData
+
+Modified Files:
+	SConscript commonRootDataLib.py 
+Log Message:
+SConscript, commonRootDataLib.py: small changes for SCons
+src/FileHeader.cxx:  add blank line
+
+    *
+------------------------------------------------------------
 User: heather  Wed Jul  1 09:45:29 PDT 2009
 commonRootData/doc
 
