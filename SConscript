@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/commonRootData/SConscript,v 1.5 2009/07/30 21:57:32 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/commonRootData/SConscript,v 1.6 2009/08/05 22:48:23 jrb Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
 # Version: commonRootData-02-15-05
 Import('baseEnv')
@@ -27,6 +27,7 @@ commonRootDataRootcint =libEnv.Rootcint('commonRootData/commonRootData_rootcint'
                                          'commonRootData/LinkDef.h'],
                                          includes = ['.'])
 
+libEnv['rootcint_node'] = commonRootDataRootcint
 
 commonRootDataLib = libEnv.SharedLibrary('commonRootData',
                                          listFiles(['src/*.cxx',
