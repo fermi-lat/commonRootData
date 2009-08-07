@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Aug  6 18:33:00 PDT 2009
+GlastRelease-scons/commonRootData
+
+Modified Files:
+	.cvsignore SConscript 
+Log Message:
+SConscript:  define rootcint_node (needed to make Windows project files)
+.cvsignore:  add SCons build products
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Aug  5 15:48:23 PDT 2009
 GlastRelease-scons/commonRootData
 
