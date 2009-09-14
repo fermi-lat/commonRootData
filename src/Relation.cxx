@@ -1,5 +1,5 @@
 // File and Version Information:
-//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/Relation.cxx,v 1.2 2005/04/13 19:49:50 heather Exp $
+//      $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/src/Relation.cxx,v 1.3 2006/03/02 17:35:31 heather Exp $
 //
 // Description:
 //                                                
@@ -36,6 +36,7 @@ void Relation::initialize(TRef key, const TRefArray& valueCol) {
 }}
 
 void Relation::Clear(Option_t *option) {
+    TObject::Clear(option);
     m_key = 0;
     m_valueCol.Clear();
 }
