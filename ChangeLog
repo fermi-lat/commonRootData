@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Mon Sep 14 08:18:27 PDT 2009
+commonRootData/src/adf
+
+Modified Files:
+	QdcHit.cxx ScalerHit.cxx TaggerHit.cxx 
+Log Message:
+warnings
+    *
+------------------------------------------------------------
+User: heather  Mon Sep 14 08:18:27 PDT 2009
 commonRootData/src
 
 Modified Files:
