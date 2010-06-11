@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:43:05 PDT 2010
+GlastRelease-scons/commonRootData
+
+Modified Files:
+	SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: commonRootData-02-15-06, operation: add
 Package: commonRootData
