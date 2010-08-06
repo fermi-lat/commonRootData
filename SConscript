@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/SConscript,v 1.9 2010/06/11 00:43:05 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/commonRootData/SConscript,v 1.10 2010/06/12 22:42:34 jrb Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
 # Version: commonRootData-02-15-07
 Import('baseEnv')
@@ -7,6 +7,7 @@ Import('listFiles')
 Import('packages')
 libEnv = baseEnv.Clone()
 
+locInc = listFiles(['commonRootData/*'], recursive=True)
 libEnv.Tool('addLinkDeps', package='commonRootData', toBuild='rootlib')
 commonRootDataRootcint = libEnv.Rootcint('commonRootData/commonRootData_rootcint.cxx',
                                          ['commonRootData/RelTable.h',
@@ -25,6 +26,8 @@ commonRootDataRootcint = libEnv.Rootcint('commonRootData/commonRootData_rootcint
                                           'commonRootData/adf/ScalerHit.h',
                                           'commonRootData/adf/QdcHit.h',
                                           'commonRootData/LinkDef.h'],
+                                         localIncludes=locInc,
+                                         packageName='commonRootData',
                                          includes = ['.'])
 
 libEnv['rootcint_node'] = commonRootDataRootcint
