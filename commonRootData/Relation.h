@@ -9,7 +9,7 @@
 * @brief GLAST Relation class.
 *
 *  
-*  $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/Relation.h,v 1.1.1.1 2002/12/03 17:39:27 heather Exp $
+*  $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/commonRootData/Relation.h,v 1.2 2010/11/03 19:55:16 usher Exp $
 */
 
 class Relation : public TObject  
@@ -41,7 +41,7 @@ private:
     TRef      m_second;
     TObjArray m_infos;
     
-    ClassDef(Relation,1) // Relation Class
+    ClassDef(Relation,2) // Relation Class
 };
 
 #endif
