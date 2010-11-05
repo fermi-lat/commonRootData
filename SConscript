@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/SConscript,v 1.12 2010/08/09 20:36:00 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/commonRootData/SConscript,v 1.13 2010/11/03 19:55:16 usher Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
-# Version: commonRootData-02-16-00
+# Version: commonRootData-02-16-01
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
