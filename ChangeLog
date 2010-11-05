@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Fri Nov  5 08:07:43 PDT 2010
+commonRootData
+
+Modified Files:
+	SConscript 
+Log Message:
+Preparing to tag commonRootData-02-16-01
+    *
+------------------------------------------------------------
 TAG
 Tag name: commonRootData-02-16-00, operation: add
 Package: commonRootData
