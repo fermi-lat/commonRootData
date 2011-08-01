@@ -1,5 +1,54 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease_Pass7-17-35-23-gr06, operation: add
+Package: commonRootData
+User: heather  Sun Jul 31 22:15:00 2011
+Files:
+  commonRootData/.cvsignore  1.2
+  commonRootData/ChangeLog  1.243
+  commonRootData/SConscript  1.12
+  commonRootData/commonRootDataLib.py  1.2
+  commonRootData/cmt/.cvsignore  1.2
+  commonRootData/cmt/requirements  1.50
+  commonRootData/commonRootData/AcdMap.h  1.3
+  commonRootData/commonRootData/LinkDef.h  1.11
+  commonRootData/commonRootData/Relation.h  1.1.1.1
+  commonRootData/commonRootData/.cvsignore  1.2
+  commonRootData/commonRootData/Exception.h  1.2
+  commonRootData/commonRootData/FileHeader.h  1.3
+  commonRootData/commonRootData/RelTable.h  1.3
+  commonRootData/commonRootData/RootObj.h  1.2
+  commonRootData/commonRootData/RootDataUtil.h  1.10
+  commonRootData/commonRootData/adf/ScalerHit.h  1.2
+  commonRootData/commonRootData/adf/QdcHit.h  1.5
+  commonRootData/commonRootData/adf/TaggerHit.h  1.4
+  commonRootData/commonRootData/idents/TkrId.h  1.5
+  commonRootData/commonRootData/idents/VolumeIdentifier.h  1.5
+  commonRootData/commonRootData/idents/TowerId.h  1.5
+  commonRootData/commonRootData/idents/AcdId.h  1.8
+  commonRootData/commonRootData/idents/AcdGapId.h  1.1
+  commonRootData/commonRootData/idents/CalXtalId.h  1.6
+  commonRootData/doc/release.notes  1.44
+  commonRootData/doc/Doxyfile  1.1.1.1
+  commonRootData/src/.cvsignore  1.1.1.1
+  commonRootData/src/mainpage.h  1.1.1.1
+  commonRootData/src/RootDataUtil.cxx  1.9
+  commonRootData/src/RelTable.cxx  1.8
+  commonRootData/src/FileHeader.cxx  1.3
+  commonRootData/src/Relation.cxx  1.4
+  commonRootData/src/adf/TaggerHit.cxx  1.4
+  commonRootData/src/adf/ScalerHit.cxx  1.2
+  commonRootData/src/adf/QdcHit.cxx  1.5
+  commonRootData/src/idents/VolumeIdentifier.cxx  1.7
+  commonRootData/src/idents/TkrId.cxx  1.3
+  commonRootData/src/idents/AcdId.cxx  1.9
+  commonRootData/src/idents/CalXtalId.cxx  1.6
+  commonRootData/src/idents/AcdGapId.cxx  1.1
+  commonRootData/src/idents/TowerId.cxx  1.8
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-23-gr05, operation: add
 Package: commonRootData
 User: heather  Sun Jul 31 21:06:47 2011
