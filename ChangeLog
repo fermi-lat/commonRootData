@@ -1,5 +1,19 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-19-03-07, operation: add
+Package: commonRootData
+User: heather  Wed Sep  7 10:27:28 2011
+Files:
+  commonRootData/.cvsignore  1.2
+  commonRootData/ChangeLog  1.244
+  commonRootData/SConscript  1.14
+  commonRootData/commonRootDataLib.py  1.2
+  commonRootData/cmt/.cvsignore  1.2
+  commonRootData/cmt/requirements  1.52
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-19-03-07, operation: del
 Package: commonRootData
 User: glastrm  Tue Sep  6 14:16:25 2011
