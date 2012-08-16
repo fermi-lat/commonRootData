@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Aug 16 16:53:48 PDT 2012
+GlastRelease-scons/commonRootData
+
+Modified Files:
+	commonRootDataLib.py 
+Log Message:
+for Windows no-installed-headers
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-04-01, operation: add
 Package: commonRootData
