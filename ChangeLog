@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-17-35-24-lp39, operation: add
 Package: commonRootData
+User: heather  Wed Oct 17 05:59:23 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-lp39, operation: add
+Package: commonRootData
 User: heather  Wed Oct 17 05:49:23 2012
 Files:
   commonRootData/.cvsignore  1.2
